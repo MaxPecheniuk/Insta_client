@@ -1,0 +1,27 @@
+.profile-control-panel{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 15px 0 25px 0;
+  &__user-nickName{
+    font-size: 25px;
+    font-weight: 100;
+    margin-right: 25px;
+    color: #262626;
+  }
+  &__edit-profile{
+    border: 1px solid #dbdbdb;
+    padding: 5px 20px;
+    margin-right: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #262626;
+
+  }
+  &__profile-settings{
+    font-size: 32px;
+    font-weight: 200;
+    color: #262626;
+
+  }
+}

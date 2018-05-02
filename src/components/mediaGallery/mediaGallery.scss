@@ -1,0 +1,10 @@
+.media-gallery{
+  width: 720px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  &__media-item{
+    padding: 10px;
+    flex: 0 0 120px;
+  }
+}

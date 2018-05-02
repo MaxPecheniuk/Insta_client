@@ -1,0 +1,13 @@
+.profile-counts{
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 25px;
+  &__container{
+    margin-right: 50px;
+    &__counter{
+      color: #262626;
+      font-weight: 600;
+    }
+  }
+
+}
